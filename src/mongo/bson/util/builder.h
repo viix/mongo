@@ -63,7 +63,7 @@ namespace mongo {
    exhaustive for example need to check for size too big after
      update $push (append) operation
 */
-const int BSONObjMaxUserSize = 16 * 1024 * 1024;
+const int BSONObjMaxUserSize = 20 * 1024 * 1024;
 
 /*
    Sometimes we need objects slightly larger - an object in the replication local.oplog
